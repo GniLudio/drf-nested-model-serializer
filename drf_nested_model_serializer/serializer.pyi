@@ -1,3 +1,4 @@
+from functools import cached_property as cached_property
 from rest_framework.serializers import ModelSerializer
 
 INCLUDE_FIELD: str
